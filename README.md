@@ -1,21 +1,18 @@
 # OpenXday Presentation
 
-## Consume only:
-
-Open
-`https://github.com/BCC2021-Team-JEE-to-MP-Quarkus-etc/openxday-presentation/blob/main/presentation.html`
-in you browser. 
-
-## Modify Presentation
-### Setup
+## Setup
 
 - `git clone git@github.com:BCC2021-Team-JEE-to-MP-Quarkus-etc/openxday-presentation.git`
 - `cd openxday-presentation`
 - `npm install`
  
 ### Build
-- build once: `npm run make` and then open `presentation.html`
-- continuous build (on unix): `watch -n 1 npm run make` and then open `presentation.html`
+- build once: `npm run make`
+- continuous build (on unix): `watch -n 1 npm run make`
+
+### Enjoy Presentation
+
+Open `presentation.html` in your browser
 
 ## Background Information
 Presentation is built using the asciidoc-revealjs combination.
