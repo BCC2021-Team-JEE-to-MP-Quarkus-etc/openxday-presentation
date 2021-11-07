@@ -20,4 +20,6 @@ Presentation is built using the asciidoc-revealjs combination.
 See:
 * https://docs.asciidoctor.org/reveal.js-converter/latest/
 * nodejs installation : https://docs.asciidoctor.org/reveal.js-converter/latest/setup/node-js-setup/
+* Showcase Implementation: https://docs.asciidoctor.org/reveal.js-converter/latest/showcase/
+* 
 
