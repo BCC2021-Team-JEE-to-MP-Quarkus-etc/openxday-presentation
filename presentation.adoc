@@ -156,7 +156,7 @@ Wildfly
 [%step]
 * Small community, a few Core-Committers
 * Well curated documentation
-* WildFly seems to be the leader of MicroProfile Implementations
+* WildFly seems to be very early adopter of MicroProfile Implementations 
 
 === Ecosystem
 
