@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "make": "asciidoctor-revealjs presentation.adoc"
+    "make": "asciidoctor-revealjs presentation.adoc",
+    "make-dist": "asciidoctor-revealjs --out-file=index.html --destination-dir=slides presentation.adoc"
   },
   "keywords": [],
   "author": "",
