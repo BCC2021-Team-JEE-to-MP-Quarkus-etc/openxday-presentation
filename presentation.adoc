@@ -1,3 +1,4 @@
+:imagesdir: assets
 = Codecamp 2021: Quarkus
 
 From JEE to Microprofile to Quarkus
@@ -5,7 +6,6 @@ From JEE to Microprofile to Quarkus
 //:title-slide-background-color: #ff0000
 
 == Motivation
-
 [%step]
 * Traditional App-Servers move to finer grained Services
 * `lightweight` JEE with MicroProfile
@@ -67,7 +67,6 @@ From JEE to Microprofile to Quarkus
 - and: OpenShift Console App-Insights (Memory etc.)
 
 == Comparison
-
 - Developer experience
 - Migration path for JEE-Apps
 - Workload effects
@@ -142,6 +141,8 @@ Quarkus 1/2
 === Migration path for JEE-Apps
 
 Quarkus 2/2
+
+image::quarkus-container-orchestration.png[size=cover]
 
 [%step]
 * Optimized Java-Runtime for containerized usage (even in non-native mode)
