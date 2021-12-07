@@ -1,5 +1,7 @@
 # OpenXday Presentation
 
+see https://bcc2021-team-jee-to-mp-quarkus-etc.github.io/openxday-presentation/
+
 ## Setup
 
 - `git clone git@github.com:BCC2021-Team-JEE-to-MP-Quarkus-etc/openxday-presentation.git`
