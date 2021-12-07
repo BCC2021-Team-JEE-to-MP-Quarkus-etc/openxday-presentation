@@ -14,9 +14,12 @@ jobs:
         run: |
           npm ci
           npm run make
+          mkdir slides
+          cp -r node_modules slides/node_modules
+          cp presentation.html slides/index.html
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.7
         with:
           branch: gh-pages # The branch the action should deploy to.
-          folder: . # The folder the action should deploy.
+          folder: slides # The folder the action should deploy.
