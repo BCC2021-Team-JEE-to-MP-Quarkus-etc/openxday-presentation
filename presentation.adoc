@@ -1,6 +1,8 @@
 :imagesdir: assets
 = Codecamp 2021: Quarkus
 
+image:https://raw.githubusercontent.com/BCC2021-Team-JEE-to-MP-Quarkus-etc/documentation/main/assets/bcc-2021-quarkus-banner.svg[background, size=cover]
+
 From JEE to Microprofile to Quarkus
 
 //:title-slide-background-color: #ff0000
@@ -109,7 +111,7 @@ can be replaced by Microprofile features
 
 === Migration path for JEE-Apps
 
-Quarkus
+Quarkus 1/2
 
 [%step]
 * Most important JEE-Specs (JakartaEE) are available +
@@ -118,6 +120,16 @@ Quarkus
 * JEE-Features like @EJB, @Stateless etc, must be replaced by its corresponding implementations like CDI.
 * Manually implemented features like health-checks, open-api, oidc, http-client, configuration
   can be replaced by Microprofile features.
+
+=== Migration path for JEE-Apps
+
+Quarkus 2/2
+
+[%step]
+* Provides both: `classic jvm` and `native binary` -mode
+* Classic mode supports even dynamic code like reflection, Class.forName() etc.
+* Native mode is limited. Quarkus-Extensions addresses this limitation.
+  Most used APIs/libraries are available already and the number of extensions is growing fast
 
 === Workload effects
 
@@ -128,19 +140,9 @@ Wildfly
 * Supports layered image-creation
 
 
-=== Migration path for JEE-Apps
+=== Workload effects
 
-Quarkus 1/2
-
-[%step]
-* Provides both: `classic jvm` and `native binary` -mode
-* Classic mode supports even dynamic code like reflection, Class.forName() etc.
-* Native mode is limited. Quarkus-Extensions addresses this limitation.
-  Most used APIs/libraries are available already and the number of extensions is growing fast
-
-=== Migration path for JEE-Apps
-
-Quarkus 2/2
+Quarkus
 
 image::quarkus-container-orchestration.png[size=cover]
 
