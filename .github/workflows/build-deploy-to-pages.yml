@@ -15,6 +15,7 @@ jobs:
           npm ci
           mkdir slides
           cp -r node_modules/reveal.js/dist/* slides
+          cp -r assets slides/
           npm run make-dist
           sed -i 's/node_modules\/reveal.js\/dist\///g' slides/index.html
 
